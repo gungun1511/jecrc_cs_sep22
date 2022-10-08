@@ -1,0 +1,16 @@
+day11:-----
+Capitalize - first letter capital ho jayega
+casefold- data ko lower krne k liye
+cat- add data
+center- position ko beech m le aaega
+endswith - kis alphabet se wo end hor rha h wo bata dega
+dummies- 
+find- position of the work as a count
+get-
+get_dummies- divide the categorical data
+join- it will join like this:         B.a.h.u.b.a.l.i
+strip - remove any unneccesary spaces or can remove any particular process
+----------------------
+.T = basically it transpose the data
+
+kaggle.com
