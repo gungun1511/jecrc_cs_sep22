@@ -1,0 +1,22 @@
+python -m pip install sacikit-learn
+
+Bring the data
+preprocessing / Analysis
+
+Split data (Training , Testing )
+       from sklearn.model_selection import train_test_split 
+       xtrain ,xtest,ytrain=train_test_split(
+        features , target , test_size=0.25
+        random_state=101
+       )
+
+Train the MODEl 
+ from sklearn.linear_model import Linear regression
+ model= LinearRegression()
+ model.fit(xtrain,ytrain)
+
+ Model Evaluation 
+  model.scope(xtest,ytest)*10
+
+Deploy the Model 
+ ypred=model.predict(any_query_data)
